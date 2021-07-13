@@ -42,7 +42,7 @@ export default function ToggleCatagory(props) {
                                             <Text style={{ textAlign: 'center', paddingTop: height * 0.01, fontSize: width * 0.03, fontWeight: 'bold' }}>{item.title}</Text>
                                         </View>
                                         <View style={{ height: height * 0.145, width: width * 0.6, justifyContent: 'center', alignItems: 'center' }}>
-                                            <View style={{ height: "80%", width: "90%", backgroundColor: 'white', justifyContent: 'center', alignItems: 'center', borderRadius: 10, overflow: 'hidden', borderWidth: 1 }}>
+                                            <View style={{ height: "80%", width: "90%", backgroundColor: 'white', justifyContent: 'center', alignItems: 'center', borderRadius: 3, overflow: 'hidden', borderWidth: 0.3 }}>
                                                 <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_rdX17AreO2khCF5jSqx-09LZoyHd_E5aMyL8LIOnwPs13B2dTvlG6U5BftCKJAc-xo&usqp=CAU" }} style={{ height: "100%", width: '100%', resizeMode: "contain" }} />
                                             </View>
                                         </View>
@@ -75,7 +75,7 @@ export default function ToggleCatagory(props) {
                                             <Text style={{ textAlign: 'center', fontSize: width * 0.03, fontWeight: 'bold' }}>{item.title}</Text>
                                         </View>
                                         <View style={{ height: width * 0.29, width: props.data.length % 4 == 1 ? width * 0.75 : props.data.length % 4 == 2 ? width * 0.5 : 0, justifyContent: 'center', alignItems: 'center' }}>
-                                            <View style={{ height: "80%", width: "90%", backgroundColor: 'white', borderRadius: 10, overflow: 'hidden', borderWidth: props.data.length % 4 == 1 ? 1 : props.data.length % 4 == 2 ? 1 : 0 }}>
+                                            <View style={{ height: "80%", width: "90%", backgroundColor: 'white', borderRadius: 3, overflow: 'hidden', borderWidth: props.data.length % 4 == 1? 0.2 : props.data.length % 4 == 2 ? 0.8 : 0 }}>
                                                 <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8_rdX17AreO2khCF5jSqx-09LZoyHd_E5aMyL8LIOnwPs13B2dTvlG6U5BftCKJAc-xo&usqp=CAU" }} style={{ height: "100%", width: '100%', resizeMode: "contain" }} />
                                             </View>
                                         </View>

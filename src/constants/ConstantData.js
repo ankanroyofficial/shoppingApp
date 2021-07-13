@@ -201,23 +201,24 @@ export const CataAdsBeauty = {
         {
             "id": 1,
             "name": "Sampoo",
-            "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c103.png"
+            "image": "https://3.imimg.com/data3/WI/IS/MY-11973182/upload-product_photos-base-0-11-36-original1-730259-1-500x500.jpg"
+
         },
         {
             "id": 2,
             "name": "oil",
-            "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c103.png"
+            "image": "https://res.sastasundar.com/incom/images/product/Johnsons-Baby-Hair-Oil-1553773159-10004563-1.jpg"
         },
         {
             "id": 3,
-            "name": "Shop",
-            "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c103.png"
+            "name": "Soap",
+            "image": "https://ph-test-11.slatic.net/p/3049a5d4debaa6ea48aa18b86dd1a0c6.jpg"
         },
         {
             "id": 4,
             "name": "Body Cream",
-            "image": "http://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c103.png"
+            "image": "https://jeyamsupermarket.com/images/thumbs/0004354_vaseline-intensive-care-cocoa-glow-body-lotion-50-ml_550.png"
         },
     ],
-    "adsBanner":"https://www.kikaysikat.com/wp-content/uploads/2014/03/Dove_products_assorted.jpg"
+    "adsBanner": "https://www.kikaysikat.com/wp-content/uploads/2014/03/Dove_products_assorted.jpg"
 }

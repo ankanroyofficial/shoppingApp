@@ -1,14 +1,15 @@
 import React from 'react'
-import { View, Dimensions, TouchableOpacity, TextInput } from 'react-native'
+import { View, Dimensions, TouchableOpacity, TextInput,ScrollView } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 import CataAds from '../components/CataAds';
-
+import ItemList from '../components/ItemList';
+import * as constant from "../constants/ConstantData"
 const { height, width } = Dimensions.get("window");
 
 export default function SearchPage() {
+    const itemListData = constant.Data.slice(0, 4);
     return (
         <View style={{ flex: 1 }}>
-
             <View style={{ height: height * 0.1, backgroundColor: '#232b40', paddingHorizontal: width * 0.035 }}>
                 <View style={{ flex: 1, justifyContent: 'center', paddingTop: height * 0.02 }}>
                     <TouchableOpacity activeOpacity={1} onPress={() => navigation.navigate("SearchPage")} style={{ height: '85%', width: "100%", backgroundColor: 'white', flexDirection: 'row', borderRadius: 5 }}>
@@ -25,13 +26,14 @@ export default function SearchPage() {
                 </View>
                 <View style={{ height: height * 0.01 }}></View>
             </View>
-            <View style={{ flex: 1, backgroundColor: "pink" }}>
-                <View style={{ flex: 1,}}></View>
+            <ScrollView style={{ flex: 1 }}>
+                
+                <View style={{ height:height*0.08}}></View>
                 <View style={{ flex: 4, }}>
-                    {/* <ItemList/> */}
-                    <CataAds/>
+                    {/* <ItemList data={itemListData} />
+                    <CataAds data={constant.CataAdsBeauty} /> */}
                 </View>
-            </View>
+            </ScrollView>
         </View>
     )
 }
